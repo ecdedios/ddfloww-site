@@ -55,8 +55,13 @@
             
             <div class="row banner">
                 <div class="banner-text">
-                    <h1 class="responsive-headline">{{ prediction }}</h1>
-                    <h3><span>You are {{ prediction }}. Scroll down for more information.</h3>
+                    {% if prediction == 'Abused' %}
+                        <h1 class="responsive-headline">{{ prediction }}</h1>
+                        <h3><span>The model predicts that you have been abused. Please seek help.</span></h3>
+                    {% else %}
+                        <h1 class="responsive-headline">{{ prediction }}</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% endif %}
                     <hr />
                     <ul class="social">
                         <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
@@ -242,7 +247,7 @@
                     </ul>
 
                     <ul class="copyright">
-                        <li>&copy; 2019 Codeup Capstone One</li>
+                        <li>&copy; 2019 Codeup Queers</li>
                     </ul>
 
                 </div>
