@@ -55,29 +55,9 @@
             
             <div class="row banner">
                 <div class="banner-text">
-                    {% if prediction_string == '10' %}
-                        <h1 class="responsive-headline">{{ prediction_string }} out of ten</h1>
-                        <h3><span>The model predicts that you have been abused. Please seek help.</span></h3>
-                    {% elseif prediction_string == '9' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% elseif prediction_string == '8' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% elseif prediction_string == '7' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% elseif prediction_string == '6' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% elseif prediction_string == '5' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% elseif prediction_string == '4' %}
-                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
-                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
-                    {% endif %}
+                    <h1 class="responsive-headline">{{ prediction }}
                     <hr />
+                    <h3><span>Likelihood of violence is {{ prediction }}.</span></h3>
                     <ul class="social">
                         <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -85,7 +65,7 @@
             </div><!-- end of .row -->
             
             <p class="scrolldown">
-                <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+                <a class="smoothscroll" href="#model"><i class="icon-down-circle"></i></a>
             </p>
             
         </header><!-- end HEADER -->
@@ -113,7 +93,6 @@
                             <p>You answered YES.</p>
                         {% endif %}
                         <p>&nbsp;</p>
-
 
                         <h3>Does he control most or all of your daily activities? (For instance: does he tell you who you can be friends with, when you can see your family, how much money you can use, or when you can take the car?</h3>
                         {% if feature2 == 0 %}
@@ -147,7 +126,62 @@
                         {% endif %}
                         <p>&nbsp;</p>
 
-                        
+                        <h3>Has he ever tried to hit you before?</h3>
+                        {% if feature6 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Does he control most or all of your daily activities? (For instance: does he tell you who you can be friends with, when you can see your family, how much money you can use, or when you can take the car?</h3>
+                        {% if feature7 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Is he violently and constantly jealous of you?</h3>
+                        {% if feature8 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Does he follow or spy on you, leave threatening notes or messages, destroy your property, or call you when you don’t want him to?</h3>
+                        {% if feature9 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Has he ever thrown an object at you?</h3>
+                        {% if feature10 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Does he follow or spy on you, leave threatening notes or messages, destroy your property, or call you when you don’t want him to?</h3>
+                        {% if feature11 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+
+                        <h3>Has he ever thrown an object at you?</h3>
+                        {% if feature12 == 0 %}
+                            <p>You answered NO.</p>
+                        {% else %}
+                            <p>You answered YES.</p>
+                        {% endif %}
+                        <p>&nbsp;</p>
+                                                
                     </div>
                     
                     <div class="four columns add-bottom">

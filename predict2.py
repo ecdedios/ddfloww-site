@@ -55,29 +55,12 @@ def predictorizer(feature1, feature2, feature3, feature4, feature5, feature6, fe
     # .values.reshape(1, -1) because it must be 2-dim, because we passed only one new observation
     new_data = pd.Series(new_data).values.reshape(1,-1) 
     # Use the model to make a prediction
-    prediction = clf.predict_proba(new_data)[[0],[1]]
-    if prediction < 1:
-        prediction_string = '10'
-    if prediction < .9:
-        prediction_string = '9'
-    if prediction < .8:
-        prediction_string = '8'
-    if prediction < .7:
-        prediction_string = '7'
-    if prediction < .6:
-        prediction_string = '6'
-    if prediction < .5:
-        prediction_string = '5'
-    if prediction < .4:
-        prediction_string = '4'
-    if prediction < .3:
-        prediction_string = '3'
-    if prediction < .2:
-        prediction_string = '2'
-    if prediction < .1:
-        prediction_string = '1'
-    return prediction_string
+    prediction = str(clf.predict_proba(new_data)[[0],[1]])
+    prediction = prediction.replace('[','')
+    prediction = prediction.replace(']','')
+    prediction = "{:.1%}".format(float(prediction))
+    return prediction
 
 
-print(predictorizer('0','0','0','0','0','0','0','0','0','0','0','0',))
+print(predictorizer('1','1','0','0','0','0','1','0','0','0','0','1',))
 
