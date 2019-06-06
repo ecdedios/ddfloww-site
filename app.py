@@ -1,4 +1,4 @@
-import predict
+import predict2
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -19,9 +19,16 @@ def submit_dv():
         feature3 = int(float(request.form['q3']))
         feature4 = int(float(request.form['q4']))
         feature5 = int(float(request.form['q5']))
-        prediction = predict.predictorizer(feature1,feature2,feature3,feature4,feature5)
-        if prediction == '0':
-            return render_template('submit_dv.html', prediction='Not Abused', feature1=feature1, feature2=feature2, feature3=feature3, feature4=feature4, feature5=feature5)
+        feature6 = int(float(request.form['q6']))
+        feature7 = int(float(request.form['q7']))
+        feature8 = int(float(request.form['q8']))
+        feature9 = int(float(request.form['q9']))
+        feature10 = int(float(request.form['q10']))
+        feature11 = int(float(request.form['q11']))
+        feature12 = int(float(request.form['q12']))
+        prediction = predict2.predictorizer(feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9,feature10,feature11,feature12)
+        if prediction <= 0.9:
+            return render_template('submit_dv.html', prediction=prediction, feature1=feature1, feature2=feature2, feature3=feature3, feature4=feature4, feature5=feature5)
         return render_template('submit_dv.html', prediction='Abused', feature1=feature1, feature2=feature2, feature3=feature3, feature4=feature4, feature5=feature5)
 
         

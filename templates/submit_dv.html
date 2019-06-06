@@ -55,11 +55,26 @@
             
             <div class="row banner">
                 <div class="banner-text">
-                    {% if prediction == 'Abused' %}
-                        <h1 class="responsive-headline">{{ prediction }}</h1>
+                    {% if prediction_string == '10' %}
+                        <h1 class="responsive-headline">{{ prediction_string }} out of ten</h1>
                         <h3><span>The model predicts that you have been abused. Please seek help.</span></h3>
-                    {% else %}
-                        <h1 class="responsive-headline">{{ prediction }}</h1>
+                    {% elseif prediction_string == '9' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% elseif prediction_string == '8' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% elseif prediction_string == '7' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% elseif prediction_string == '6' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% elseif prediction_string == '5' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
+                        <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
+                    {% elseif prediction_string == '4' %}
+                        <h1 class="responsive-headline">{{ prediction_string }}}} out of ten</h1>
                         <h3><span>The model predicts that you have not been abused. This is good!</span></h3>
                     {% endif %}
                     <hr />
