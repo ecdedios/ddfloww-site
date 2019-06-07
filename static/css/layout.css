@@ -33,11 +33,12 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/domestic-violence/header-bg.jpg) no-repeat top center;
+   background: #161415 url(../images/domestic-violence/purple-trees.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background-attachment: fixed;
 }
 
 /* vertically center banner section */
@@ -236,7 +237,7 @@ ul#nav li.current a { color: #ffff00; }
 /* ------------------------------------------------------------------ */
 
 #resume,
-#model{
+#model, #insights{
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
@@ -659,7 +660,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/light-testimonials-background.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/domestic-violence/purple-sky.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;

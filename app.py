@@ -23,11 +23,8 @@ def submit_dv():
         feature7 = int(float(request.form['q7']))
         feature8 = int(float(request.form['q8']))
         feature9 = int(float(request.form['q9']))
-        feature10 = int(float(request.form['q10']))
-        feature11 = int(float(request.form['q11']))
-        feature12 = int(float(request.form['q12']))
-        prediction = predict2.predictorizer(feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9,feature10,feature11,feature12)
-        return render_template('submit_dv.html', prediction=prediction, feature1=feature1, feature2=feature2, feature3=feature3, feature4=feature4, feature5=feature5, feature6=feature6, feature7=feature7, feature8=feature8, feature9=feature9, feature10=feature10, feature11=feature11, feature12=feature12)        
+        prediction = predict2.predictorizer(feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9)
+        return render_template('submit_dv.html', prediction=prediction, feature1=feature1, feature2=feature2, feature3=feature3, feature4=feature4, feature5=feature5, feature6=feature6, feature7=feature7, feature8=feature8, feature9=feature9)        
     return render_template('dv.html')
 
 if __name__ == "__main__":
