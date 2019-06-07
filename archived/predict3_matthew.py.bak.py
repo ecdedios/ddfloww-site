@@ -1,3 +1,4 @@
+import model
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
@@ -6,6 +7,11 @@ from collections import OrderedDict
 from sklearn.metrics import accuracy_score
 
 df = pd.read_csv('phase2_df.csv')
+
+X = df.drop(columns=['id', 'abuse_past_year', 'abuse_status', 'reassault'])
+y = df[['reassault']]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .15, random_state = 0, stratify=y)
 
 x_columns = ['slap',
              'threat_object',
@@ -21,19 +27,14 @@ x_columns = ['slap',
 X = df[x_columns]
 y = df[['reassault']]
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .15, random_state = 0, stratify=y)
-
-clf = LogisticRegressionCV(cv=5,
-                           random_state=0,
-                           solver='liblinear'
-                          ).fit(X_train, y_train)
+clf, y_pred, y_pred_proba = model.log_reg(x_columns, X_train, y_train, cv_num=5, solver='liblinear')
 
 
 print('Accuracy of Logistic Regression classifier on training set: {:.2f}'
-     .format(clf.score(X_train, y_train)))
+     .format(clf.score(X_train[x_columns], y_train)))
 
 print('Accuracy of Logistic Regression classifier on test set: {:.2f}'
-     .format(clf.score(X_test, y_test)))
+     .format(clf.score(X_test[x_columns], y_test)))
 
 def predictorizer(feature1, feature2, feature3, feature4, feature5, feature6, feature7, feature8, feature9):
 
