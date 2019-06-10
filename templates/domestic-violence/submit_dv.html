@@ -57,7 +57,7 @@
                 <div class="banner-text">
                     <h1 class="responsive-headline">{{ prediction }}
                     <hr />
-                    <h3><span>Likelihood of violence is {{ prediction }}.</span></h3>
+                    <h3><span>Likelihood of reassault is {{ prediction }}.</span></h3>
                     <ul class="social">
                         <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -194,6 +194,7 @@
                 <div class="eight columns">
 
                     <!-- form -->
+                    <form method="POST" action="/report_dv">
                     <form action="" method="post" id="contactForm" name="contactForm">
                         <fieldset>
 
