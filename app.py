@@ -40,7 +40,7 @@ def submit_dv():
                                                 feature7,
                                                 feature8,
                                                 feature9)
-            return render_template('/domestic-violence/submit_dv.html',
+            return render_template('/domestic-violence/submit-dv.html',
                                     prediction=prediction,
                                     feature1=feature1,
                                     feature2=feature2,
