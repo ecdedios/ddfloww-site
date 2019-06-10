@@ -12,7 +12,7 @@ def dv():
     return render_template('/domestic-violence/dv.html')
 
 @app.route('/domestic-violence/self-report')
-def dv():
+def self_report():
     return render_template('/domestic-violence/self-report.html')
 
 @app.route('/domestic-violence/submit-dv', methods=['GET', 'POST'])
