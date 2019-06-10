@@ -8,8 +8,8 @@
         <!-- PAGE DESCRIPTION
         ================================================== -->
         <meta charset="utf-8">
-        <title>[RESULT] Predicting Reassault - A Domestic Violence Prevention Project</title>
-        <meta name="description" content="Using data from a study on domestic violence cases in Chicago (Block, C. R., 1995), analyzed reported cases to predict the key indicators of recidivism (re-assault) and created web app with personalized resources for victims of domestic violence.">
+        <title>[RESULT] Predicting Violence - A Domestic Violence Prevention Project</title>
+        <meta name="description" content="Put a long multi-line description of the website here.">
         <meta name="author" content="Ednalyn C. De Dios, Jesse Ruiz, Matthew Capper">
 
         <!-- MOBILE SPECIFIC
@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="../static/css/default.css">
         <link rel="stylesheet" href="../static/css/layout.css">
         <link rel="stylesheet" href="../static/css/media-queries.css">
+        <link rel="stylesheet" href="../static/css/magnific-popup.css">
 
         <!-- SCRIPTS
         ================================================== -->
@@ -28,13 +29,7 @@
 
         <!-- FAVICONS & APP ICONS
         ================================================== -->
-        <link rel="apple-touch-icon" sizes="180x180" href="../static/images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon-16x16.png">
-        <link rel="manifest" href="../static/images/site.webmanifest">
-        <link rel="mask-icon" href="../static/images/safari-pinned-tab.svg" color="#6600ff">
-        <meta name="msapplication-TileColor" content="#2d89ef">
-        <meta name="theme-color" content="#ffffff">
+
 
     </head>
 
@@ -60,22 +55,22 @@
             
             <div class="row banner">
                 <div class="banner-text">
-                    <h1 class="responsive-headline">Predicting Reassault</h1>
-                    <h3><span>If you or somebody you know might be experiencing domestic violence, please call 1-800-799-7233. </span></h3>
+                    <h1 class="responsive-headline">{{ prediction }}
                     <hr />
+                    <h3><span>Likelihood of reassault is {{ prediction }}.</span></h3>
                     <ul class="social">
-                        <li><a href="https://github.com/codeup-capstone-one/domestic-violence"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div><!-- end of .row -->
             
             <p class="scrolldown">
-                <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+                <a class="smoothscroll" href="#model"><i class="icon-down-circle"></i></a>
             </p>
             
         </header><!-- end HEADER -->
-
-                
+        
+        
         <!-- MODEL
         ================================================== -->
         <section id="model">
@@ -174,8 +169,6 @@
             
         </section><!-- end MODEL -->
 
-
-
         <!-- CONTACT
         ================================================== -->
         <section id="contact">
@@ -190,7 +183,7 @@
 
                 <div class="ten columns">
 
-                    <p class="lead">For questions, please contact the data scientists below.</p>
+                    <p class="lead">Use the form below to send me a direct email. Don't forget to include information on how to best get a hold of you, e.g. extension numbers, best time to call et cetera. Please allow 24 hours for a response.</p>
 
                 </div>
 
@@ -198,53 +191,62 @@
 
             <div class="row">
 
-                <aside class="four columns footer-widgets">
+                <div class="eight columns">
 
-                    <div class="widget widget_contact">
+                    <!-- form -->
+                    <form method="POST" action="/report_dv">
+                    <form action="" method="post" id="contactForm" name="contactForm">
+                        <fieldset>
 
-                        <h4>Matthew Capper</h4>
-                        <p class="address">
-                        <span>(210) 867-1894</span><br>
-                        <a href="mailto:matthew.capper01@gmail.com">Email &middot;
-                        <a href="https://twitter.com/mcapper01">Twitter &middot;
-                        <a href="https://github.com/matthewcapper">Github <br>
-                        <a href="https://www.linkedin.com/in/matthew-capper/">LinkedIn &middot;
-                        <a href="https://alumni.codeup.com/uploads/697-1559489802.pdf">Resumé</a>
-                        </p>
+                            <div>
+                                <label for="contactName">Name <span class="required">*</span></label>
+                                <input type="text" value="" size="35" id="contactName" name="contactName">
+                            </div>
 
+                            <div>
+                                <label for="contactEmail">Email <span class="required">*</span></label>
+                                <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                                </div>
+
+                            <div>
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                            </div>
+
+                            <div>
+                                <label for="contactMessage">Message <span class="required">*</span></label>
+                                <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                            </div>
+
+                            <div>
+                                <button class="submit">Submit</button>
+                                <span id="image-loader">
+                                <img alt="" src="images/loader.gif">
+                                </span>
+                            </div>
+
+                        </fieldset>
+                    </form> <!-- Form End -->
+
+                    <!-- contact-warning -->
+                    <div id="message-warning"> Error boy</div>
+                    <!-- contact-success -->
+                    <div id="message-success">
+                        <i class="fa fa-check"></i>Your message was sent, thank you!<br>
                     </div>
 
-                </aside>
+                </div>
+
 
                 <aside class="four columns footer-widgets">
 
                     <div class="widget widget_contact">
 
-                        <h4>Ednalyn C. De Dios</h4>
+                        <h4>Questions?</h4>
                         <p class="address">
-                        <span>(210) 236-2685</span><br>
-                        <a href="mailto:ednalyn.dedios@gmail.com">Email &middot;
-                        <a href="https://twitter.com/ecdedios">Twitter &middot;
-                        <a href="https://github.com/ecdedios">Github <br>
-                        <a href="https://www.linkedin.com/in/ecdedios/">LinkedIn &middot;
-                        <a href="https://alumni.codeup.com/uploads/699-1559446559.pdf">Resumé</a>
-                        </p>
-
-                    </div>
-
-                </aside>
-
-                <aside class="four columns footer-widgets">
-
-                    <div class="widget widget_contact">
-
-                        <h4>Jesse J. Ruiz</h4>
-                        <p class="address">
-                        <a href="mailto:jesse.jinna.ruiz@gmail.com">Email &middot;
-                        <a href="https://twitter.com/jessejinnaruiz">Twitter &middot;
-                        <a href="https://github.com/jessejinnaruiz">Github <br>
-                        <a href="https://www.linkedin.com/in/jesse-jinna-ruiz/">LinkedIn &middot;
-                        <a href="https://alumni.codeup.com/uploads/705-1559836798.pdf">Resumé</a>
+                        Zenobia Adkins<br>
+                        <span>(210) 549-7555</span><br>
+                        <a href="mailto:zenobia.adkins@gmail.com">zenobia.adkins@gmail.com</a>
                         </p>
 
                     </div>
@@ -265,7 +267,9 @@
                 <div class="twelve columns">
 
                     <ul class="social-links">
+                        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://github.com/codeup-capstone-one/domestic-violence"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://data.world/"><i class="fa fa-briefcase"></i></a></li>
                     </ul>
 
                     <ul class="copyright">
