@@ -1025,3 +1025,8 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #1154b0; }
 
+
+
+.projects-item-meta{
+  color: #0f0f0f;
+}
