@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="../static/css/default.css">
 		<link rel="stylesheet" href="../static/css/layout.css">
 		<link rel="stylesheet" href="../static/css/media-queries.css">
+		<link rel="stylesheet" href="../static/css/magnific-popup.css">
 
 		<!-- SCRIPTS
 		================================================== -->
@@ -304,7 +305,239 @@
 			
 		</section><!-- end MODEL -->
 
+		
+		<!-- PROJECTS
+		================================================== -->
+		<section id="projects">
+		
+			<div class="row">
+			
+				<div class="twelve columns collapsed">
+				
+					<h1>A Few Resources</h1>
 
+					<!-- projects-wrapper -->
+					<div id="projects-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+
+						
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-01" title="">
+							<img alt="" src="../static/images/domestic-violence/protective-order.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Protective Order</mark></h5>
+									<p><mark>Fillable PDF</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-02" title="">
+							<img alt="" src="../static/images/domestic-violence/buoy.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Safety Planning Worksheet/mark></h5>
+									<p><mark>Fillable PDF</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-03" title="">
+							<img alt="" src="../static/images/domestic-violence/bcfjc.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Bexar County Family Justice Center</mark></h5>
+									<p><mark>San Antonio</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-04" title="">
+							<img alt="" src="images/projects/ednalyn-c-de-dios-data-science-clustering.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>K-Means Clustering</h5>
+									<p>Data Science</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+						
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-05" title="">
+							<img alt="" src="images/projects/rideforachildlogo-ednalyndedios-webgraphicdesigner.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>Ride for a Child</h5>
+									<p>Campaign</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-06" title="">
+							<img alt="" src="images/projects/ednalyn-c-de-dios-data-science-classification.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>Classification Project</h5>
+									<p>Data Science</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+							</div>
+						</div><!-- item end -->
+
+					</div><!-- projects-wrapper end -->
+
+				</div><!-- twelve columns end -->
+
+
+					<!-- Modal Popup
+					================================================== -->
+
+					<div id="modal-01" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-protective-order.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Protective Order</h4>
+							<p>Predicting recividism in domestic violence cases using non-fatal strangulation as an important risk factor for homicide of women. </p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science, Collaborative Project</span>
+						</div>
+
+						<div class="link-box">
+							<a href="../static/docs/20190608_Permanent_Protective_Order_Application_Kit_fillable.pdf" target="_blank">Open</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-01 End -->
+
+					<div id="modal-02" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-buoy.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Safey Plan</h4>
+							<p>Exploratory data analysis and event forecasting on several datasets.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science, Collaborative Project</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/codeup-capstone-one/domestic-violence" target="_blank">Visit Project Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-02 End -->
+
+					<div id="modal-03" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-bcfjc.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Natural Language Processing</h4>
+							<p>Analyzing employment availability of Codeup alumni using wordcloud, TF-IDF, and sentiment analysis.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/avoid-failure" target="_blank">Visit Project Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-03 End -->
+
+					<div id="modal-04" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/modal-ednalyn-c-de-dios-data-science-clustering.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>K-Means Clustering</h4>
+							<p>Used K-means clustering and linear regression on Zillow dataset.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/ds-methodologies-exercises/tree/master/clustering" target="_blank">Visit Page</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-04 End -->
+
+					<div id="modal-05" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/m-irontechlogo-ednalyndedios-webgraphicdesigner.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Iron Tech Satellite Logo</h4>
+							<p>A logo that I've created for a satellite installation company in Killeen, Texas.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Logo, Branding</span>
+						</div>
+
+						<div class="link-box">
+							<a href="http://ddfloww.com/project/iron-tech-satellite-logo/" target="_blank">Visit Page</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-05 End -->
+
+					<div id="modal-06" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/modal-ednalyn-c-de-dios-data-science-python-exercises.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Python Exercises</h4>
+							<p>Solutions to Python exercises while attending Codeup.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/python-exercises" target="_blank">Visit Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-06 End -->
+
+			</div><!-- end .row -->
+			
+		</section><!-- end PROJECTS -->	
 
 		<!-- CONTACT
 		================================================== -->
