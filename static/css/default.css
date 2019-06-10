@@ -463,7 +463,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #1154b0;
+   background: #6600ff; 
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
