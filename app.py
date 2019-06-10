@@ -11,7 +11,7 @@ def index():
 def dv():
     return render_template('/domestic-violence/dv.html')
 
-@app.route('/domestic-violence/self-report')
+@app.route('/domestic-violence/report')
 def self_report():
     return render_template('/domestic-violence/self-report.html')
 
