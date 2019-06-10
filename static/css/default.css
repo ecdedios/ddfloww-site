@@ -287,7 +287,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #1154b0;
+   color: #6600ff;  /* 1154b0 */
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -348,7 +348,7 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#1154b0;
+   color:#6600ff;
 }
 .stats-tabs li a b {
 	display: block;
@@ -360,7 +360,7 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#1154b0; }
+dt { margin: 0; color:#6600ff; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -435,7 +435,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #1154b0;
+   background-color: #6600ff;
    color: #fff;
 }
 .pagination .inactive,
