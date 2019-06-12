@@ -447,6 +447,7 @@ ul#nav li.current a { color: #ffff00; }
 
 #recommendations span {
   font-style: italic;
+  font-weight: 400;
 }
 
 /* projects Content */
