@@ -199,8 +199,7 @@ ul#nav li.current a { color: #ffff00; }
 
 #about span a, #about span a:visited  { color: #6633ff }
 
-#about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+#about h1 {
    color: #fff;
    margin-bottom: 12px;
 }
