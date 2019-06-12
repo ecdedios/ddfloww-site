@@ -820,13 +820,14 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   /*font: 18px/24px 'opensans-bold', sans-serif;*/
+   text-align: center;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
+/*#contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
@@ -836,7 +837,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+}*/
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
