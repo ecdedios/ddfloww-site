@@ -1064,5 +1064,5 @@ h1{
 }
 
 .responsive-headline{
-  font-size: 68px;
+  text-transform: capitalize;
 }
