@@ -1054,3 +1054,8 @@ footer .social-links li:first-child { margin-left: 0; }
 .projects-item-meta{
   color: #0f0f0f;
 }
+
+body{
+  font-size: 18px;
+  color: 333333;
+}
