@@ -206,6 +206,7 @@ ul#nav li.current a { color: #ffff00; }
    line-height: 30px;
    /*color: #7A7A7A;*/
    font-size: 22px;
+   color: #fff;
 }
 #about .profile-pic {
    position: relative;
