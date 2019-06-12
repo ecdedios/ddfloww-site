@@ -659,8 +659,18 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#testimonials,
 #research {
+   background: #1F1F1F url(../images/domestic-violence/phone.jpg) no-repeat center center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
+#testimonials {
    background: #1F1F1F url(../images/domestic-violence/purple-sky.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
