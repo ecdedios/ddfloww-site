@@ -659,7 +659,8 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+#testimonials,
+#research {
    background: #1F1F1F url(../images/domestic-violence/purple-sky.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -670,11 +671,13 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#testimonials .text-container,
+#research .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#testimonials h1,
+#research h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
