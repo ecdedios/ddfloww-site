@@ -435,6 +435,7 @@ ul#nav li.current a { color: #ffff00; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   font-weight: bold;
 }
 #recommendations h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -447,7 +448,6 @@ ul#nav li.current a { color: #ffff00; }
 
 #recommendations span {
   font-style: italic;
-  font-weight: 400;
 }
 
 /* projects Content */
