@@ -445,6 +445,10 @@ ul#nav li.current a { color: #ffff00; }
    color: #95A3A3;
 }
 
+#recommendations span {
+  font-style: italic;
+}
+
 /* projects Content */
 #projects-wrapper .columns { margin-bottom: 36px; }
 .projects-item .item-wrap {
