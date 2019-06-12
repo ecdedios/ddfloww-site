@@ -1067,3 +1067,8 @@ h1{
 .responsive-headline{
   text-transform: capitalize;
 }
+
+#contact h2{
+  text-align: center;
+  color: #cccccc;
+}
