@@ -1062,3 +1062,7 @@ body{
 h1{
   text-transform: uppercase;
 }
+
+.responsive-headline{
+  font-size: 68px;
+}
