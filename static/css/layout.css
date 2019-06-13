@@ -1072,3 +1072,7 @@ h1{
   text-align: center;
   color: #cccccc;
 }
+
+#contact a, #contact a:visited{
+  color: #333333;
+}
