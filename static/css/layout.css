@@ -1073,6 +1073,9 @@ h1{
   color: #cccccc;
 }
 
-#contact, #contact a, #contact a:visited{
+#contact{
   color: #999999;
+}
+#contact,#contact a, #contact a:visited{
+  color: #dddddd;
 }
