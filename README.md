@@ -7,7 +7,9 @@ _Curiousity museum._
 
 ## Usage
 
-Written in Python 3. Run in Jupyter notebook.
+Written in HTML5 and CSS3 with a sprinkle of Javascript using the Bootstrap 4 framework.
+
+_Projects will most likely be written in Python 3. Run in Jupyter notebook._
 
 ## Meta
 
