@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+	<head>
+
+		<!-- PAGE DESCRIPTION
+		================================================== -->
+		<meta charset="utf-8">
+		<title>Predicting Reassault - A Domestic Violence Prevention Project</title>
+		<meta name="description" content="Put a long multi-line description of the website here.">
+		<meta name="author" content="Ednalyn C. De Dios, Jesse Ruiz, Matthew Capper">
+
+		<!-- MOBILE SPECIFIC
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- CSS
+		 ================================================== -->
+		<link rel="stylesheet" href="../static/css/default.css">
+		<link rel="stylesheet" href="../static/css/layout.css">
+		<link rel="stylesheet" href="../static/css/media-queries.css">
+		<link rel="stylesheet" href="../static/css/magnific-popup.css">
+
+		<!-- SCRIPTS
+		================================================== -->
+		<script src="../static/js/modernizr.js"></script>
+
+		<!-- FAVICONS & APP ICONS
+		================================================== -->
+
+
+	</head>
+
+	<body>
+
+		<!-- HEADER
+		================================================== -->
+		<header id="home">
+		
+			<nav id="nav-wrap">
+			
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+				<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+				
+				<ul id="nav" class="nav">
+					<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+					<li><a class="smoothscroll" href="#about">About</a></li>
+					<li><a class="smoothscroll" href="#model">The Model</a></li>
+					<li><a class="smoothscroll" href="#projects">Resources</a></li>
+					<li><a class="smoothscroll" href="#contact">Contact Us</a></li>
+				</ul><!-- end #nav -->
+			
+			</nav><!-- end #nav-wrap -->
+			
+			<div class="row banner">
+				<div class="banner-text">
+					<h1 class="responsive-headline">Predicting Reassault</h1>
+					<h3><span>If you or somebody you know might be experiencing domestic violence, please call 1-800-799-7233. </span></h3>
+					<hr />
+					<ul class="social">
+						<li><a href="https://github.com/codeup-capstone-one/domestic-violence"><i class="fa fa-github"></i></a></li>
+					</ul>
+				</div>
+			</div><!-- end of .row -->
+			
+			<p class="scrolldown">
+				<a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+			</p>
+			
+		</header><!-- end HEADER -->
+
+
+		<!-- ABOUT
+		================================================== -->
+		<section id="about">
+
+			<div class="row">
+
+			<div class="nine columns main-col">
+
+				<h2>The Problem</h2>
+
+				<p>Domestic violence and assault are a pervasive and ubiquitous plague that blankets the entirety of the population.</p>
+
+				<p>Our target in this project was to take the myriad of survey answers taken across a breadth of inquiries and narrow it down to a small, digestible set of minimally invasive questions. These questions could assess whether or not a given individual was at risk of reassault as a means to possible next-steps for protection.</p>
+
+
+					<p><a href="../static/docs/Safety_Planning_Worksheet.pdf" class="button"><i class="fa fa-download"></i> Download Safety Plan</a></p>
+
+			</div><!-- end .main-col -->
+
+			<div class="three columns">
+
+				
+
+			</div>
+
+		</div><!-- end .row -->
+
+		</section><!-- end ABOUT -->
+		
+		
+		<!-- INSIGHTS
+		================================================== -->
+		<section id="insights">
+		
+			<div class="row add-bottom">
+				<div class="twelve columns add-bottom">
+					<h1>Slapping</h1>
+					<p>The correlation between the occurrence of slapping and re-assault is perhaps the most striking observation encountered in this exploration.  Here, it can be observed that the average rate of re-assault raises exceptionally, merely by the occurrence of one slapping incident.</p>
+					<img src="../static/images/domestic-violence/viz/slap.png">
+
+					<h1>Power &amp; Control</h1>
+					<p>The Power scale is an aggregate measure from 0-5 based on the following inquiries:</p>
+					<p>In the past year, an intimate partner...</p>
+					<li>Was jealous and didn’t want you to talk to other men (women)</li>
+					<li>Tried to limit your contact with family or friends</li>
+					<li>Insisted on knowing who are with and where you are at all times</li>
+					<li>Called you names to put you down or make you feel bad</li>
+					<li>Prevented you from knowing about or having access to family income, even if you ask</li>
+					<img src="../static/images/domestic-violence/viz/power_scale.png">
+					
+					<h1>Power Scale for Age Disparity and Length of Relationship</h1>
+					<p>Age disparity between perpetrator and respondent:</p>
+					<p>
+						3: Perpetrator is older by 21-42 years<br/>
+						2: Perpetrator is older by 10-20 years<br/>
+						1: Perpetrator is older by 5-9 years
+					</p>
+					<p>
+						0: same age & within 5 years<br/>
+						1: Respondent is older by 5-9 years<br/>
+						2: Respondent is older by 10-20 years
+					</p>
+					<img src="../static/images/domestic-violence/viz/age_length.png">
+				</div>
+			</div><!-- end insights preamble -->
+		
+			<div class="row add-bottom">
+
+				<div class="twelve columns">
+					
+				</div><!-- end heatmap -->
+
+			</div><!-- end insights text -->
+			
+		</section><!-- end insights -->
+
+
+
+
+		<!-- TESTIMONIALS
+		================================================== -->
+		<section id="testimonials">
+
+			<div class="text-container">
+
+				<div class="row">
+
+					<div class="two columns header-col">
+
+						<h1><span>Testimonials</span></h1>
+
+					</div>
+
+					<div class="ten columns flex-container">
+
+						<div class="flexslider">
+
+							<ul class="slides">
+
+								<li>
+									<blockquote>
+										<p>The purpose of all theory is to understand and explain.</p>
+										<cite>Einstadter & Henry (1995)</cite>
+									</blockquote>
+								</li> <!-- end slide -->
+
+							</ul>
+							<ul class="slides">
+
+								<li>
+									<blockquote>
+										<p>The purpose of all theory is to understand and explain.</p>
+										<cite>Einstadter & Henry (1995)</cite>
+									</blockquote>
+								</li> <!-- end slide -->
+
+							</ul>
+
+						</div> <!-- div.flexslider ends -->
+
+					</div> <!-- div.flex-container ends -->
+
+				</div> <!-- row ends -->
+
+			</div>  <!-- end text-container -->
+
+		</section> <!-- end TESTIMONIALS-->
+		
+
+		
+		<!-- MODEL
+		================================================== -->
+		<section id="model">
+		
+			<div class="row add-bottom">
+				<div class="twelve columns add-bottom">
+					<h1>The Model</h1>
+				</div>
+			</div><!-- end model preamble -->
+		
+			<div class="row add-bottom">
+				<form method="POST" action="/domestic-violence/submit_dv">
+
+					<div class="eight columns add-bottom">
+					
+						<h3>Has your partner ever slapped you?</h3>
+						<select name="q1" id="q1">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+
+						<h3>Has your partner ever threaten you with an object?</h3>
+						<select name="q2" id="q2">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Has your partner ever beaten you?</h3>
+						<select name="q3" id="q3">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Has your partner ever tried to limit your contact with your family?</h3>
+						<select name="q4" id="q4">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Has your partner ever kicked or punched you?</h3>
+						<select name="q5" id="q5">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Has your partner threatened to hit you before?</h3>
+						<select name="q6" id="q6">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+
+						<h3>Has your partner pushed or shoved you?</h3>
+						<select name="q7" id="q7">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Is your partner constantly jealous of you to the point of violence?</h3>
+						<select name="q8" id="q8">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<h3>Have your partner ever felt like your life was in danger?</h3>
+						<select name="q9" id="q9">
+							<option value="0"></option>
+                            <option value="0">No</option>
+                            <option value="1">Yes</option>
+						</select>
+						<p>&nbsp;</p>
+
+						<input class="btn" type="submit" value="Click here to submit.">
+						<p>&nbsp;</p>
+						
+					</div>
+					
+					<div class="four columns add-bottom">
+						
+					</div>
+			
+				</form>
+			</div><!-- end model text -->
+			
+		</section><!-- end MODEL -->
+
+		
+		<!-- PROJECTS
+		================================================== -->
+		<section id="projects">
+		
+			<div class="row">
+			
+				<div class="twelve columns collapsed">
+				
+					<h1>A Few Resources</h1>
+
+					<!-- projects-wrapper -->
+					<div id="projects-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+
+						
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-01" title="">
+							<img alt="" src="../static/images/domestic-violence/protective-order.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Protective Order</mark></h5>
+									<p><mark>Fillable PDF</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-02" title="">
+							<img alt="" src="../static/images/domestic-violence/buoy.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Safety Planning Worksheet/mark></h5>
+									<p><mark>Fillable PDF</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-03" title="">
+							<img alt="" src="../static/images/domestic-violence/bcfjc.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5><mark>Bexar County Family Justice Center</mark></h5>
+									<p><mark>San Antonio</mark></p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-04" title="">
+							<img alt="" src="images/projects/ednalyn-c-de-dios-data-science-clustering.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>K-Means Clustering</h5>
+									<p>Data Science</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+						
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-05" title="">
+							<img alt="" src="images/projects/rideforachildlogo-ednalyndedios-webgraphicdesigner.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>Ride for a Child</h5>
+									<p>Campaign</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+						<div class="columns projects-item">
+							<div class="item-wrap">
+
+							<a href="#modal-06" title="">
+							<img alt="" src="images/projects/ednalyn-c-de-dios-data-science-classification.jpg">
+							<div class="overlay">
+								<div class="projects-item-meta">
+									<h5>Classification Project</h5>
+									<p>Data Science</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+							</div>
+						</div><!-- item end -->
+
+							</div>
+						</div><!-- item end -->
+
+					</div><!-- projects-wrapper end -->
+
+				</div><!-- twelve columns end -->
+
+
+					<!-- Modal Popup
+					================================================== -->
+
+					<div id="modal-01" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-protective-order.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Protective Order</h4>
+							<p>Predicting recividism in domestic violence cases using non-fatal strangulation as an important risk factor for homicide of women. </p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science, Collaborative Project</span>
+						</div>
+
+						<div class="link-box">
+							<a href="../static/docs/20190608_Permanent_Protective_Order_Application_Kit_fillable.pdf" target="_blank">Open</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-01 End -->
+
+					<div id="modal-02" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-buoy.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Safey Plan</h4>
+							<p>Exploratory data analysis and event forecasting on several datasets.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science, Collaborative Project</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/codeup-capstone-one/domestic-violence" target="_blank">Visit Project Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-02 End -->
+
+					<div id="modal-03" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="../static/images/domestic-violence/modals/m-bcfjc.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Natural Language Processing</h4>
+							<p>Analyzing employment availability of Codeup alumni using wordcloud, TF-IDF, and sentiment analysis.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/avoid-failure" target="_blank">Visit Project Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-03 End -->
+
+					<div id="modal-04" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/modal-ednalyn-c-de-dios-data-science-clustering.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>K-Means Clustering</h4>
+							<p>Used K-means clustering and linear regression on Zillow dataset.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/ds-methodologies-exercises/tree/master/clustering" target="_blank">Visit Page</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-04 End -->
+
+					<div id="modal-05" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/m-irontechlogo-ednalyndedios-webgraphicdesigner.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Iron Tech Satellite Logo</h4>
+							<p>A logo that I've created for a satellite installation company in Killeen, Texas.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Logo, Branding</span>
+						</div>
+
+						<div class="link-box">
+							<a href="http://ddfloww.com/project/iron-tech-satellite-logo/" target="_blank">Visit Page</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-05 End -->
+
+					<div id="modal-06" class="popup-modal mfp-hide">
+
+						<img class="scale-with-grid" src="images/projects/modals/modal-ednalyn-c-de-dios-data-science-python-exercises.jpg" alt="" />
+
+						<div class="description-box">
+							<h4>Python Exercises</h4>
+							<p>Solutions to Python exercises while attending Codeup.</p>
+							<span class="categories"><i class="fa fa-tag"></i>Data Science</span>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/ecdedios/python-exercises" target="_blank">Visit Repo</a>
+							<a class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div><!-- modal-06 End -->
+
+			</div><!-- end .row -->
+			
+		</section><!-- end PROJECTS -->	
+
+		<!-- CONTACT
+		================================================== -->
+		<section id="contact">
+
+			<div class="row section-head">
+
+				<div class="two columns header-col">
+
+					<h1><span>Get In Touch.</span></h1>
+
+				</div>
+
+				<div class="ten columns">
+
+					<p class="lead">For questions, please contact the data scientists below.</p>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<aside class="four columns footer-widgets">
+
+					<div class="widget widget_contact">
+
+						<h4>Matthew Capper</h4>
+						<p class="address">
+						<span>(210) 867-1894</span><br>
+						<a href="mailto:matthew.capper01@gmail.com">Email &middot;
+						<a href="https://twitter.com/mcapper01">Twitter &middot;
+						<a href="https://github.com/matthewcapper">Github <br>
+						<a href="https://www.linkedin.com/in/matthew-capper/">LinkedIn &middot;
+						<a href="https://alumni.codeup.com/uploads/697-1559489802.pdf">Resumé</a>
+						</p>
+
+					</div>
+
+				</aside>
+
+				<aside class="four columns footer-widgets">
+
+					<div class="widget widget_contact">
+
+						<h4>Ednalyn C. De Dios</h4>
+						<p class="address">
+						<span>(210) 236-2685</span><br>
+						<a href="mailto:ednalyn.dedios@gmail.com">Email &middot;
+						<a href="https://twitter.com/ecdedios">Twitter &middot;
+						<a href="https://github.com/ecdedios">Github <br>
+						<a href="https://www.linkedin.com/in/ecdedios/">LinkedIn &middot;
+						<a href="https://alumni.codeup.com/uploads/699-1559446559.pdf">Resumé</a>
+						</p>
+
+					</div>
+
+				</aside>
+
+				<aside class="four columns footer-widgets">
+
+					<div class="widget widget_contact">
+
+						<h4>Jesse J. Ruiz</h4>
+						<p class="address">
+						<a href="mailto:jesse.jinna.ruiz@gmail.com">Email &middot;
+						<a href="https://twitter.com/jessejinnaruiz">Twitter &middot;
+						<a href="https://github.com/jessejinnaruiz">Github <br>
+						<a href="https://www.linkedin.com/in/jesse-jinna-ruiz/">LinkedIn &middot;
+						<a href="https://alumni.codeup.com/uploads/705-1559836798.pdf">Resumé</a>
+						</p>
+
+					</div>
+
+				</aside>
+
+			</div>
+
+		</section> <!-- Contact Section End-->
+
+
+		<!-- FOOTER
+		================================================== -->
+		<footer>
+
+			<div class="row">
+
+				<div class="twelve columns">
+
+					<ul class="social-links">
+						<li><a href="https://github.com/codeup-capstone-one/domestic-violence"><i class="fa fa-github"></i></a></li>
+					</ul>
+
+					<ul class="copyright">
+                        <li>&copy; 2019 Codeup Queers</li>
+                    </ul>
+
+				</div>
+
+				<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home">
+					<i class="icon-up-open"></i></a>
+				</div>
+
+			</div>
+
+		</footer> <!-- Footer End-->
+
+
+		<!-- JAVASCRIPT
+		================================================== -->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../static/js/jquery-1.10.2.min.js"><\/script>')</script>
+		<script type="text/javascript" src="../static/js/jquery-migrate-1.2.1.min.js"></script>
+
+		<script src="../static/js/jquery.flexslider.js"></script>
+		<script src="../static/js/waypoints.js"></script>
+		<script src="../static/js/jquery.fittext.js"></script>
+		<script src="../static/js/magnific-popup.js"></script>
+		<script src="../static/js/init.js"></script>
+
+
+	</body>
+
+</html>
